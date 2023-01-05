@@ -1,7 +1,7 @@
 
-# Digita Configuration Repository
+# use.id Coding Assets Repository
 
-This repository provides a standard configuration for repositories and packages, used internally at Digita to adopt a uniform clean coding environment. It contains the following configuration packages:
+This repository provides a standard configuration for repositories and packages, used internally at use.id and Digita to adopt a uniform clean coding environment. It contains the following configuration packages:
 
 - [`commitlint-config`](./packages/commitlint-config#readme)
 - [`eslint-config`](./packages/eslint-config#readme)
