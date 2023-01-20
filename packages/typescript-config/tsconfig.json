@@ -12,6 +12,7 @@
         "experimentalDecorators": true,
         "forceConsistentCasingInFileNames": true,
         "importHelpers": true,
+        "inlineSources": true,
         "module": "es2020",
         "moduleResolution": "node",
         //"newLine": "LF",
