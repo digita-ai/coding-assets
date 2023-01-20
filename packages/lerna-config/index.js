@@ -6,7 +6,7 @@ module.exports = {
       "ignorePrepublish": true,
     },
     "version": {
-      "allowBranch": [ "master", "develop" ],
+      "allowBranch": [ "main" ],
       "conventionalCommits": true,
       "exact": true,
       "forcePublish": true,
