@@ -16,7 +16,7 @@ The installation instructions of each configuration can be found in the separate
 ```
 registry=https://registry.npmjs.org/
 
-@digita-ai:registry=https://npm.pkg.github.com
+@useid:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=${NPM_TOKEN}
 always-auth=true
 ```

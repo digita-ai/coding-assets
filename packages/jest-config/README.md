@@ -5,7 +5,7 @@ This package provides a Jest preset configuration, used internally at Digita to 
 
 ## Installation
 
-In the root of your (mono)repo, install `@digita-ai/jest-config` as a development dependency. From NPM v7 onwards,, this will automatically add the following peer dependencies as well (if you use an earlier version, install these yourself). 
+In the root of your (mono)repo, install `@useid/jest-config` as a development dependency. From NPM v7 onwards,, this will automatically add the following peer dependencies as well (if you use an earlier version, install these yourself). 
 
 - `jest`
 - `jest-extended`
@@ -34,7 +34,7 @@ In each `package.json`, add the following `jest` object.
         }
     },
     "displayName": "core",
-    "preset": "@digita-ai/jest-config",
+    "preset": "@useid/jest-config",
     "rootDir": "lib"
 }
 ```
@@ -47,7 +47,7 @@ When using git hooks in a monorepo, you might want to run Jest from the root `no
 
 ```
 "jest": {
-    "preset": "@digita-ai/jest-config",
+    "preset": "@useid/jest-config",
     "projects": [
         "./packages/*/package.json"
     ]
