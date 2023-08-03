@@ -1,6 +1,6 @@
 {
   "name": "@useid/jest-config",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "Shareable jest config for internal use",
   "author": "Wouter Termont <wouter.termont@digita.ai>",
   "main": "./jest=preset.js",

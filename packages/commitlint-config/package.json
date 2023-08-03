@@ -1,6 +1,6 @@
 {
   "name": "@useid/commitlint-config",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "Shareable CommitLint config for internal use",
   "author": "Wouter Termont <wouter.termont@digita.ai>",
   "main": "./index.js",
