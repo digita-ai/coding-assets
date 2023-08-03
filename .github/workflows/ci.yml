@@ -93,22 +93,32 @@ jobs:
 
       # - run: npm run build:all
 
-      - run: npm publish packages/commitlint-config
+      - run: |
+          cd packages/commitlint-config
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - run: npm publish packages/eslint-config
+      - run: |
+          cd packages/eslint-config
+          npm publish 
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - run: npm publish packages/jest-config
+      - run: |
+          cd packages/jest-config
+          npm publish 
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - run: npm publish packages/lerna-config
+      - run: |
+          cd packages/lerna-config
+          npm publish 
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - run: npm publish packages/typescript-config
+      - run: |
+          cd packages/typescript-config
+          npm publish 
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
