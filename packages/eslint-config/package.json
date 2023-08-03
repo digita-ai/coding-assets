@@ -1,6 +1,6 @@
 {
   "name": "@useid/eslint-config",
-  "version": "0.6.4",
+  "version": "0.7.0",
   "description": "Shareable ESLint config for internal use",
   "author": "Wouter Termont <wouter.termont@digita.ai>",
   "main": "./index.js",
