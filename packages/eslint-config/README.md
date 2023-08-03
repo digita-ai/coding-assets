@@ -5,7 +5,7 @@ This package provides a shareable ESLint configuration, used internally at Digit
 
 ## Installation
 
-In the root of your (mono)repo, install `@digita-ai/eslint-config` as a development dependency. From NPM v7 onwards,, this will automatically add the following peer dependencies as well (if you use an earlier version, install these yourself). 
+In the root of your (mono)repo, install `@useid/eslint-config` as a development dependency. From NPM v7 onwards,, this will automatically add the following peer dependencies as well (if you use an earlier version, install these yourself). 
 
 - `eslint`
 - `eslint-plugin-deprecation`
@@ -26,7 +26,7 @@ In the root `package.json`, add the following `eslintConfig` and `lint-staged` o
 ```
 "eslintConfig": {
   "extends": [
-    "@digita-ai/eslint-config"
+    "@useid/eslint-config"
   ]
 }
 ```

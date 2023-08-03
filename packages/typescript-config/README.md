@@ -5,7 +5,7 @@ This package provides a Typescript configurations, one for building and one for 
 
 ## Installation
 
-In each Typescript package, install `@digita-ai/typescript-config` as a development dependency. From NPM v7 onwards, this will automatically add the following peer dependencies as well (if you use an earlier version, install these yourself). 
+In each Typescript package, install `@useid/typescript-config` as a development dependency. From NPM v7 onwards, this will automatically add the following peer dependencies as well (if you use an earlier version, install these yourself). 
 
 - `typescript`
 - `@types/node`
@@ -15,7 +15,7 @@ Put the following in the `tsconfig.json`.
 
 ```
 {
-  "extends": "@digita-ai/typescript-config/tsconfig.json",
+  "extends": "@useid/typescript-config/tsconfig.json",
   "compilerOptions": {
     "baseUrl": "./lib",
     "outDir": "./dist",
@@ -28,7 +28,7 @@ Put the following in the `tsconfig.spec.json`.
 
 ```
 {
-  "extends": "@digita-ai/typescript-config/tsconfig.spec.json",
+  "extends": "@useid/typescript-config/tsconfig.spec.json",
   "compilerOptions": {
     "baseUrl": "./lib",
     "outDir": "./dist",

@@ -1,5 +1,5 @@
 {
-  "name": "@digita-ai/typescript-config",
+  "name": "@useid/typescript-config",
   "version": "0.5.0",
   "description": "Shareable TypeScript config for internal use",
   "author": "Wouter Termont <wouter.termont@digita.ai>",
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/digita-ai/dgt-config.git",
+    "url": "git+https://github.com/useid/dgt-config.git",
     "directory": "packages/typescript-config"
   },
   "bugs": {
-    "url": "https://github.com/digita-ai/dgt-config/issues"
+    "url": "https://github.com/useid/dgt-config/issues"
   },
   "peerDependencies": {
     "@types/node": "^14.14.41",

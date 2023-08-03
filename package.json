@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
-    "@digita-ai/commitlint-config": "file:./packages/commitlint-config",
-    "@digita-ai/lerna-config": "file:./packages/lerna-config",
+    "@useid/commitlint-config": "file:./packages/commitlint-config",
+    "@useid/lerna-config": "file:./packages/lerna-config",
     "conventional-changelog-conventionalcommits": "^4.5.0",
     "husky": "^6.0.0",
     "jest": "^28.1.1",
