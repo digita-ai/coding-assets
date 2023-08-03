@@ -18,14 +18,14 @@
   "dependencies": {
     "merge": "^2.1.1",
     "ts-jest": "^28.0.0",
-    "typescript": "^4.2.3"
+    "typescript": "^5.0.4"
   },
   "peerDependencies": {
     "@types/jest": "^27.4.0",
     "jest": "^28.1.1",
     "jest-coverage-thresholds-bumper": "^1.1.0",
     "jest-extended": "^1.2.0",
-    "jest-mock-extended": "^2.0.4"
+    "jest-mock-extended": "^3.0.5"
   },
   "optionalDependencies": {
     "@testing-library/jest-dom": "^5.16.1",

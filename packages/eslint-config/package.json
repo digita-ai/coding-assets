@@ -30,6 +30,6 @@
   },
   "dependencies": {
     "@typescript-eslint/parser": "^5.12.1",
-    "typescript": "^4.5.5"
+    "typescript": "^5.0.4"
   }
 }
