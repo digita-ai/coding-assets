@@ -18,7 +18,7 @@
   "dependencies": {
     "merge": "^2.1.1",
     "ts-jest": "^28.0.0",
-    "typescript": "^4.2.3"
+    "typescript": "^5.0.4"
   },
   "peerDependencies": {
     "@types/jest": "^27.4.0",
